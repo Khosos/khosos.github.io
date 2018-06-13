@@ -1,0 +1,150 @@
+body{ 
+	background-color:#e8e8e8;
+ }
+ .navbar-light .navbar-brand{ 
+  font-size: 1.5em;
+  color: white;   
+  }
+
+  .navbar-light .navbar-brand:hover{ 
+    color: white;   
+  }
+
+ .navbar {
+  font-family: "Roboto Condensed","Arial Narrow", Arial, sans-serif;
+  font-size: 1.1rem; 
+  padding: 0; 
+  background-color: #248CBA;
+ }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: white; 
+  } 
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: black; 
+    background-color: white;
+    border-radius: 5px; 
+  } 
+
+ .jumbotron h2 { 
+ 	font-weight: 700; 
+ 	text-align: center; 
+  color: white; 
+  background-color: rgba(91, 91, 91, 0.7);
+  display: inline;
+  border-radius: 10px; 
+  padding: 1% 2%;
+  font-family: "Roboto Condensed","Arial Narrow", Arial, sans-serif;
+  }
+
+.jumbotron{ 
+  	background: url("http://manteconpartners.com/wp-content/uploads/2017/07/McMaster-University-Engineering-Technology-Building.jpg") no-repeat center center;
+  	background-size: cover; 
+  	margin-bottom: 0; 
+    border-radius: 0; 
+    text-align: center; 
+    padding: 10%; 
+ }
+
+ .subheading {
+  font-family: "Roboto Condensed","Arial Narrow", Arial, sans-serif;
+  text-align: center; 
+  padding: 2%; 
+ }
+
+ .profilepic { 
+  border-radius: 50%; 
+  width: 100%; 
+ } 
+
+ .vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+hr { 
+  border-top: 4px solid #248CBA;
+  padding: 0; 
+  margin: 0; 
+ }
+  .projects-figure {  
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  border-radius: 10px;
+ background-color: #FFF; 
+  overflow: hidden; 
+}
+
+.projects-figure:hover {
+/* -moz-transform:translate(0,-0.7rem);
+ -o-transform:translate(0,-0.7rem);
+ -webkit-transform:translate(0,-0.7rem);*/
+}
+
+.img-thumbnail { 
+  border: 0; 
+  padding: 0; 
+  border-radius: 0; 
+ }
+
+@media screen and (min-width: 768px) {
+    .img-thumbnail {
+        height: 300px;
+        width: auto;
+    }
+}
+
+ .projects-description {
+  padding: 1rem 1rem; 
+  color: #4B4B4B; 
+ }
+
+.navbar button{ 
+  outline: none; 
+ }
+
+ .navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+ } 
+
+ .zoomed {
+  max-width: none; 
+  flex: none;
+  transition: all 10s ease; 
+ }
+
+.skillset-img {
+  display: block; 
+  width: 50%; 
+  margin: auto; 
+}
+
+.skillset-row { 
+  align-items: center; 
+  padding-bottom: 0; 
+}
+
+.skillset { 
+  background-color: rgb(199, 164, 164); 
+  padding-bottom: 5%; 
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+.footer {
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+a:hover{
+  text-decoration: none;  
+ }
