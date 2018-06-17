@@ -153,6 +153,14 @@ a:hover{
   .card-img-top {
       height: 30vw; 
   }
+
+  .slick-prev {
+    left: -10px;
+  }
+
+  .slick-next {
+    right: -10px;
+}
 }
 
 @media only screen and (max-width: 480px) {
