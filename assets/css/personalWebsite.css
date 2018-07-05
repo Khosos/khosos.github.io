@@ -127,7 +127,7 @@ hr {
   padding-bottom: 0; 
 }
 
-.skillset { 
+#skillset { 
   background-color: rgb(178, 178, 178); 
   padding-bottom: 5%; 
 }
@@ -167,4 +167,8 @@ a:hover{
   .card-img-top {
       height: 60vw; 
   }
+}
+
+.card a { 
+  color: #212529; 
 }
